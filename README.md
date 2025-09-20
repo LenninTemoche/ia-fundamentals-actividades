@@ -7,10 +7,12 @@ Repositorio para actividades del curso IA Fundamentals de IBM y Guayerd
 
 Se creó este repositorio y se subió archivo csv “german_credit_data_biased_training.csv
 
-- Add file
+- Add file (Agregar archivo).
 
-- Upload files
+- Upload files (Cargar archivos).
 
-- Commit changes
+- Add files via upload (Agregar archivos mediante carga).
 
-- Add files via upload 
+- Commit changes (Confirmar cambios).
+
+
