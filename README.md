@@ -106,5 +106,31 @@ Este proyecto no solo demuestra el uso técnico de Watson Studio, sino también 
 
 ---
 ---
+## 🔮 Actividad 2.1 : Fase de Predicción generada en Python  Actividad Guiada IBM
+
+En esta fase se desarrolló un **modelo predictivo de fraude** utilizando **Random Forest**. 
+
+ * Archivo : Proyecto_Fraude_Seguros.ipynb
+
+Se consideraron como variables clave:
+
+- `EXCESSIVE_CLAIM_AMOUNT` (reclamos > $10,000)  
+- `POLICE_REPORT`  
+- `INCIDENT_CAUSE`  
+- Diferencia temporal entre `LOSS_EVENT_TIME` y `CLAIM_INIT_TIME`  
+
+### 📊 Resultados
+- **Accuracy general:** 94%  
+- **F1-score:** 0.94 (equilibrio entre precisión y recall)  
+- El modelo clasifica correctamente la mayoría de reclamos legítimos y fraudulentos.  
+- Se detecta una ligera tendencia a **perder algunos fraudes de bajo monto** (falsos negativos), aunque en número reducido.  
+
+### ✅ Conclusión
+El modelo es **altamente confiable** como sistema de apoyo para la detección de fraudes, reduciendo riesgos financieros y falsos positivos.  
+Se recomienda ajustarlo como **herramienta de alerta temprana**, acompañada de revisión manual en casos sospechosos.
+
+
+---
+---
 
 
